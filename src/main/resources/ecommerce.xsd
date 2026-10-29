@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Définition de l'élément racine Catalogue -->
+    <xs:element name="Catalogue">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Produit" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Nom" type="xs:string"/>
+                            <xs:element name="Prix" type="xs:decimal"/>
+                            <xs:element name="Categorie" type="xs:string"/>
+                            <xs:element name="EnPromotion" type="xs:boolean"/>
+                            <xs:element name="Stock" type="xs:integer"/>
+                        </xs:sequence>
+                        <!-- Attribut id pour chaque produit -->
+                        <xs:attribute name="id" type="xs:string" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

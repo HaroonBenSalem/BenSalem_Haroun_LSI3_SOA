@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Catalogue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="ecommerce.xsd">
+    <Produit id="P001">
+        <Nom>Smartphone Galaxy S23</Nom>
+        <Prix>799.99</Prix>
+        <Categorie>High-Tech</Categorie>
+        <EnPromotion>true</EnPromotion>
+        <Stock>12</Stock>
+    </Produit>
+    <Produit id="P002">
+        <Nom>Casque Audio Bluetooth</Nom>
+        <Prix>89.50</Prix>
+        <Categorie>Accessoires</Categorie>
+        <EnPromotion>false</EnPromotion>
+        <Stock>45</Stock>
+    </Produit>
+    <Produit id="P003">
+        <Nom>Machine à café Expresso</Nom>
+        <Prix>299.00</Prix>
+        <Categorie>Maison</Categorie>
+        <EnPromotion>true</EnPromotion>
+        <Stock>8</Stock>
+    </Produit>
+    <Produit id="P004">
+        <Nom>Chaise de bureau ergonomique</Nom>
+        <Prix>150.00</Prix>
+        <Categorie>Mobilier</Categorie>
+        <EnPromotion>false</EnPromotion>
+        <Stock>20</Stock>
+    </Produit>
+</Catalogue>
